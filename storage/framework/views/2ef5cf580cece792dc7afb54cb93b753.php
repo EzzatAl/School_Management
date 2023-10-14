@@ -1,0 +1,1 @@
+<?php /**PATH C:\Users\hp\Project\Junior_project3\Junior_project\vendor\filament\filament\src\/../resources/views/components/global-search/start.blade.php ENDPATH**/ ?>
