@@ -176,7 +176,7 @@
 
                                     Dream big, and go for it!</p>
 
-                                        <h2>جدول معلومات الطلاب</h2>
+                                        <h2>Student Mark Table:</h2>
                                         <table id="infoTable" border="1">
                                             <tr>
                                                 <th>Name</th>
@@ -190,8 +190,8 @@
                                                     <td>{{ $quiz->Name }}</td>
                                                     <td>{{ $quiz->Day }}</td>
                                                     <td>{{ $quiz->Type }}</td>
+                                                    <td>{{ $quiz->Mark }}</td>
                                                     <td>{{ $quiz->TotalMark }}</td>
-                                                    <td>{{ $quiz->mark }}</td>
                                                 </tr>
                                             @endforeach
                                         </table>
@@ -210,7 +210,7 @@
 
                                             Dream big, and go for it!</p>
 
-                                        <h2>جدول المهام</h2>
+                                        <h2>Assignments Table:</h2>
                                         <table id="infoTable" border="1">
                                             <tr>
                                                 <th>Name Subject</th>

@@ -83,10 +83,10 @@ class UserController extends Controller
         $response =
             [
                 'Name' => $user['first_name'].' '.$user['last_name'],
-                'Father Name' => $user['s_father'],
-                'Mother Name' => $user['s_mother'],
+                'Father_Name' => $user['s_father'],
+                'Mother_Name' => $user['s_mother'],
                 'Gender'=>$user['gender'],
-                'Phone Number'=>$user['s_phone_number'],
+                'Phone_Number'=>$user['s_phone_number'],
                 'Address' => $user['s_address']
             ];
         return  response()->json([$response]);

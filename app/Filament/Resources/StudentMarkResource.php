@@ -49,7 +49,7 @@ class StudentMarkResource extends Resource
                     ->searchable()
                     ->toggleable()
                     ->sortable(),
-                Tables\Columns\TextColumn::make('mark')
+                Tables\Columns\TextColumn::make('TotalMark')
                     ->searchable()
                     ->toggleable()
                     ->sortable(),

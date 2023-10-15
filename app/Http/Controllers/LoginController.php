@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Models\Assignment;
+use App\Models\Quizze;
 use App\Models\StudentGrade;
 use App\Models\User;
 use Illuminate\Http\Request;
@@ -26,16 +27,16 @@ class LoginController extends Controller
                 return response()->json(['message' => 'Invalid credentials'], 401);
             } else {
                 $students = User::query()->where('full_name', $request->input('full_name'))->get();
+                $students_id = User::query()->where('full_name', $request->input('full_name'))->first();
                 $informations = StudentGrade::query()->select('grades.Name','divisions.name')
                     ->join('grades','grades.id','=','student_grades.grade_id')
                     ->join('divisions','divisions.id','=','grades.division_id')
                     ->join('users','users.id','=','student_grades.student_id')
                     ->where('full_name', $request->input('full_name'))->get();
-                $quizzes=User::query()->select('quizzes.Name','quizzes.Day','quizzes.Type',
-                    'quizzes.TotalMark','student_marks.mark')
-                    ->join('quizzes','quizzes.subject_id','=','users.id')
-                    ->join('student_marks','student_marks.student_id','=','users.id')
-                    ->where('users.full_name','=', $request->input('full_name'))->get();
+                $quizzes=Quizze::query()->select('quizzes.Name','quizzes.Day','quizzes.Type',
+                    'quizzes.Mark','student_marks.TotalMark')
+                    ->join('student_marks','student_marks.subject_id','=','quizzes.subject_id')
+                    ->where('student_marks.student_id','=',$students_id->id)->get();
                 $assignments=Assignment::query()->select('subjects.Name',
                     'assignments.name','assignments.date','assignments.description')
                     ->join('student_grades', 'student_grades.grade_id','=','assignments.grade_id')

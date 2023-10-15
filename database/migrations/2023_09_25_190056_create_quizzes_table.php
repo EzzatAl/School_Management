@@ -21,7 +21,7 @@ return new class extends Migration
             $table->string('Name');
             $table->date('Day');
             $table->string('Type')->default('quiz');
-            $table->integer('TotalMark');
+            $table->integer('Mark');
             $table->timestamps();
         });
     }

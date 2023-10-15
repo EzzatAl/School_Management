@@ -24,9 +24,9 @@ class AreaBussesController extends Controller
                 foreach ($time_busses as $time) {
                     $response =
                         [
-                            'Area Name' => $time['name'],
-                            'Time Morning Arrived' => $time['TimeMorningArrived'],
-                            'Time After Noon Arrived' => $time['TimeAfterNoonArrived'],
+                            'Area_Name' => $time['name'],
+                            'Time_Morning_Arrived' => $time['TimeMorningArrived'],
+                            'Time_After_Noon_Arrived' => $time['TimeAfterNoonArrived'],
                             'Type' => $time['Type']
                         ];
                     $array[] = $response;

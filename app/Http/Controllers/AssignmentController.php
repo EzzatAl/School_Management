@@ -34,9 +34,9 @@ class AssignmentController extends Controller
 
                     $response =
                         [
-                            'Subject Name' => $assignment['Name'],
-                            'Teacher Name' => $assignment['first_name'] . ' ' . $assignment['last_name'],
-                            'Assignment Name' => $assignment['name'],
+                            'Subject_Name' => $assignment['Name'],
+                            'Teacher_Name' => $assignment['first_name'] . ' ' . $assignment['last_name'],
+                            'Assignment_Name' => $assignment['name'],
                             'Date' => $assignment['date'],
                             'Description' => $assignment['description'],
                         ];

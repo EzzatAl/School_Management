@@ -15,7 +15,7 @@ use App\Http\Controllers\LoginController;
 |
 */
 
-Route::get('/',[\App\Http\Controllers\FeeController::class,'Fee']);
+Route::get('/',[\App\Http\Controllers\FeeController::class,'Feeview']);
 
 Route::get('/Teacher1',function(){
     return view('profile-teacher1');

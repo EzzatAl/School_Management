@@ -16,7 +16,7 @@ class Quizze extends Model
         'Name',
         'Day',
         'Type',
-        'TotalMark'
+        'Mark'
     ];
     public function subject()
     {

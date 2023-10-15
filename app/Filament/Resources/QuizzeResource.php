@@ -49,7 +49,7 @@ class QuizzeResource extends Resource
                         'quiz' => 'Quiz',
                     ])
                     ->required(),
-                TextInput::make('TotalMark')
+                TextInput::make('Mark')
                     ->maxLength(3)
                     ->required()
             ]);
@@ -84,7 +84,7 @@ class QuizzeResource extends Resource
                     ->searchable()
                     ->toggleable()
                     ->sortable(),
-                Tables\Columns\TextColumn::make('TotalMark')
+                Tables\Columns\TextColumn::make('Mark')
                     ->searchable()
                     ->toggleable()
                     ->sortable(),

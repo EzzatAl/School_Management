@@ -21,7 +21,7 @@ class QuizzesController extends Controller
              ->where('student_id', '=', Auth::user()->id)
              ->first();
          $quizzes=Quizze::query()->select('subjects.name','users.first_name',
-             'users.last_name','quizzes.Name','quizzes.Day','quizzes.Type','quizzes.TotalMark')
+             'users.last_name','quizzes.Name','quizzes.Day','quizzes.Type','quizzes.Mark')
              ->join('subjects','subjects.id','=','quizzes.subject_id')
              ->join('users','users.id','=','quizzes.teacher_id')
              ->where('quizzes.grade_id','=',$grade_id->id)
@@ -35,7 +35,7 @@ class QuizzesController extends Controller
                      'Quiz_Name' => $quiz['Name'],
                      'Quiz_Day'=>$quiz['Day'],
                      'Quiz_Type'=>$quiz['Type'],
-                     'Quiz_Total Mark'=>$quiz['TotalMark'],
+                     'Quiz_Mark'=>$quiz['Mark'],
                  ];
              $array[]=$response;
          }

@@ -45,8 +45,8 @@ class TimeTableDataController extends Controller
             foreach ($time_data as $time) {
                 $response =
                     [
-                        'Subject Name' => $time['name'],
-                        'Teacher Name' => $time['first_name'] . ' ' . $time['last_name'],
+                        'Subject_Name' => $time['name'],
+                        'Teacher_Name' => $time['first_name'] . ' ' . $time['last_name'],
                         'Time' => $time['StartFrom'] . '  To  ' . $time['EndIn'],
                     ];
                 $array[]=$response;

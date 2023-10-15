@@ -43,7 +43,7 @@ class StudentMarkController extends Controller
                 ]);
                 return response()->json(['TotalMark'=>$student->TotalMark]);
             }
-           else if(!$student->exists())
+           else if(!$mark)
            {
                return response()->json(['message'=>'this subject dont have mark']);
            }

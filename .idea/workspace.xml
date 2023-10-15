@@ -1,7 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="078f3a79-2856-4a78-aef9-10b88d669e3f" name="Default Changelist" comment="" />
+    <list default="true" id="078f3a79-2856-4a78-aef9-10b88d669e3f" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Filament/Resources/QuizzeResource.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Filament/Resources/QuizzeResource.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Filament/Resources/StudentMarkResource.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Filament/Resources/StudentMarkResource.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/AreaBussesController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/AreaBussesController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/AssignmentController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/AssignmentController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/FeeController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/FeeController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/LoginController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/LoginController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/QuizzesController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/QuizzesController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/StudentMarkController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/StudentMarkController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/TimeTableDataController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/TimeTableDataController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/UserController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/UserController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Quizze.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Quizze.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2023_09_25_190056_create_quizzes_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2023_09_25_190056_create_quizzes_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/student/profile-student.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/student/profile-student.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/cache/data/02/47/0247bb36de8848a8f2a2ee50eeb7912eab2ae309" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/cache/data/02/47/0247bb36de8848a8f2a2ee50eeb7912eab2ae309" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/cache/data/06/17/061726db3d846617dbf57062cd6dae9f8ce9d282" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/cache/data/06/17/061726db3d846617dbf57062cd6dae9f8ce9d282" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/cache/data/66/0e/660e24580927cd53659b00a35644a4634ed72dd6" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/cache/data/66/0e/660e24580927cd53659b00a35644a4634ed72dd6" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/cache/data/6b/70/6b7041320a73d38513b4afcd5638b069fe86bd58" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/cache/data/6b/70/6b7041320a73d38513b4afcd5638b069fe86bd58" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/cache/data/c0/71/c071422490d526a8aada046adf3a9c9fa0593468" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/cache/data/c0/71/c071422490d526a8aada046adf3a9c9fa0593468" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/cache/data/ec/c4/ecc49f49f4da6b940dcde13f0571e79c299871e6" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/cache/data/ec/c4/ecc49f49f4da6b940dcde13f0571e79c299871e6" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/sessions/5OA7oyIfF2TwJLYPNTmXwBYi6QMd3KP21rMpxqEg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/sessions/BsNYlvSOf2nkVKG3T9LxR2TpocDcopMrnEzhJQFL" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/sessions/EwSda5HptdJfB76VaNqtjmSwHNjmdRl738RgXMvu" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/sessions/QCuPucG9pEhTS2dqjGVd5Qf8elWxMAPiP5hXC58W" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/sessions/dPY9fG5KI8MWQM5C42Owk5RY3fE4v4TFg8kN2iCh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/sessions/de07IDKXnYHWHo0Ei32Y9aqLJOUYwg2sjKt6NVra" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/sessions/igZc2wjJjXQcWFW0DZoii055elfn3PmQyVHKFIX7" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/sessions/j0rtUkjBmqrCPruyZ6GxdTe11VNk3AYNE7XywzLB" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/sessions/nKpkAcWe6iBe5G1vLa92h5K1U7ypAZBXi90Pzn2v" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/sessions/xd3HDTgR2Sdha3zp5TgoMeWjLrioztrNwfjKhfvn" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/logs/laravel.log" beforeDir="false" afterPath="$PROJECT_DIR$/storage/logs/laravel.log" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,6 +43,9 @@
   <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitSEFilterConfiguration">
     <file-type-list>
@@ -227,6 +263,7 @@
       <workItem from="1696928214178" duration="33000" />
       <workItem from="1697297949320" duration="7860000" />
       <workItem from="1697313106763" duration="150000" />
+      <workItem from="1697367557222" duration="5571000" />
     </task>
     <servers />
   </component>

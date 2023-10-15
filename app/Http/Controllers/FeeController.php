@@ -11,7 +11,7 @@ use Illuminate\Support\Facades\Auth;
 
 class FeeController extends Controller
 {
-    public function Fee(Request $request)
+    public function Feeview (Request $request)
     {
             $courses =Fee::query()->where('Type','like','courses')->get();
             $trips=Fee::query()->where('Type','like','trips')->get();
@@ -31,5 +31,10 @@ class FeeController extends Controller
             {
                 return view('welcome');
             }
+        }
+        public function Fee (Request $request)
+        {
+            $fee =Fee::all('Name','Type','Description','Image');
+            return response($fee);
         }
 }
