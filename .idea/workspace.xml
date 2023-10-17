@@ -3,36 +3,199 @@
   <component name="ChangeListManager">
     <list default="true" id="078f3a79-2856-4a78-aef9-10b88d669e3f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Filament/Resources/QuizzeResource.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Filament/Resources/QuizzeResource.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Filament/Resources/StudentMarkResource.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Filament/Resources/StudentMarkResource.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/AreaBussesController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/AreaBussesController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/AssignmentController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/AssignmentController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Filament/Resources/QuizQuestionResource.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Filament/Resources/QuizQuestionResource.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/FeeController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/FeeController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/LoginController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/LoginController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/QuizzesController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/QuizzesController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/StudentMarkController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/StudentMarkController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/TimeTableDataController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/TimeTableDataController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/UserController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/UserController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/Quizze.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Quizze.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2023_09_25_190056_create_quizzes_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2023_09_25_190056_create_quizzes_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/student/profile-student.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/student/profile-student.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/custom.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/custom.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/storage/066IKctVRGJYQ5xKsqrCbfYJXVkzpy-metac3R1ZGVudC5qcGc=-.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/storage/0ZMuOqDw7qvSXOcK9bDGQlE5tINDVB-metaYm95LmpwZw==-.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/storage/0sdGfsJ4gVgktQyqRI9o059yBlPJLR-metaZG93bmxvYWQucG5n-.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/storage/1x79j2N8oH2419H6rbOHjhGsWFEKTn-metaU2NyZWVuc2hvdCAyMDIzLTA5LTMwIDIyMTQzNi5wbmc=-.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/storage/2AChpBzJblKWzF9GQkA2sNG4iqYWsd-metadGVhY2hlci5qcGc=-.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/storage/2J2Cfbfxm8M2tgT6KYQW99OhgCK2lM-metaYm95LmpwZw==-.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/storage/3WTBom3TT1LosrRdgm4o6XqmAQwlW9-metac3R1ZGVudC5qcGc=-.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/storage/4w14blufqv94h9nCKCAjTmmIYOa1QN-metadGVhY2hlcjIuanBn-.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/storage/5JhQknhvGTPc7M8gch3PUm0KyMh58N-metac3R1ZGVudC5qcGc=-.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/storage/5VzInLoPq236jmT9JVZM6XOvzoVtzs-metac3R1ZGVudC5qcGc=-.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/storage/6ydTnxXJ74E3AsC2kAJnLULE6exAur-metacHJvZmlsZS1iaWcuanBn-.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/storage/7nJUQcVlj0bXydYh05TBU9HcozqwZY-metaUGFyaXMuanBn-.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/storage/8U0mKxNr8EmO9An4JoJ32Fq4vOlfPk-metac3R1ZGVudC5qcGc=-.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/storage/9XwuK7Hf4ZGqhFY0Z9dL6ed6JUsllK-metac3R1ZGVudC5qcGc=-.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/storage/A3WsHcqCyZHgoqEZNrgMVHWz1TDu4U-metacHJvZmlsZS1iaWcuanBn-.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/storage/BjgbR1sMu1treafPrSYBmRPVxzUyga-metaU2NyZWVuc2hvdCAyMDIzLTA5LTMwIDIyMTQzNi5wbmc=-.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/storage/DO8AThZJxIO3w0t2ZjxDOI80ecTsiG-metac3R1ZGVudC5qcGc=-.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/storage/DkYbzhkoqp3gmm3ANjwd7CJO56v6Wt-metac3R1ZGVudC5qcGc=-.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/storage/EaXELr17OQBLjyaXztWhYrtakySMX5-metac2FtZm9yZC1oYWxsLTE2MTQxODNfMTI4MC5qcGc=-.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/storage/FuLs28qRrTCjMUYnOB6J7spITJKlbx-metaU2NyZWVuc2hvdCAyMDIzLTA5LTMwIDIyMTQzNi5wbmc=-.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/storage/FwXcLfjEPBMW1NZYrZGtdN61vBldmy-metaU2NyZWVuc2hvdCAyMDIzLTA5LTMwIDIyMTQzNi5wbmc=-.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/storage/G4n1OAOmOQyeetfHwyc6oRPzYSZkY3-metaU2NyZWVuc2hvdCAyMDIzLTA5LTMwIDIyMTQzNi5wbmc=-.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/storage/GjWeJf3o3jqGgbp6vtQDQub3korWLW-metac3R1ZGVudC5qcGc=-.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/storage/HwgMcuhDWScZEJB00qCUH6X3av1CI2-metac2FtZm9yZC1oYWxsLTE2MTQxODNfMTI4MC5qcGc=-.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/storage/JEavrkpBE0bGx84GzcT0X3vhhz8S7T-metac3R1ZGVudC5qcGc=-.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/storage/JX6SYcRypNJSnwA6NX4xoCTvDpgdSi-metac2FtZm9yZC1oYWxsLTE2MTQxODNfMTI4MC5qcGc=-.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/storage/K3qhK0DgVfr6FC0pPDlRtQRNiv7zWw-metac2FtZm9yZC1oYWxsLTE2MTQxODNfMTI4MC5qcGc=-.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/storage/LN1ALQz6MJ2X5FRszQ98Z4kfkuJRTy-metac3R1ZGVudC5qcGc.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/storage/LSkOOKY22J0ZNSc0FAi4CgR1vtq3EY-metac3R1ZGVudC5qcGc=-.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/storage/LTlJsAzVxMBKEOAjZSuO294epzjj0d-metac3R1ZGVudC5qcGc=-.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/storage/NFaNmJRNHCqzsk1dm9mVIAZhphPpb4-metacHJvZmlsZS1iaWcuanBn-.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/storage/Ninu0Eh2XUNvvGmGHJHTYbUTuLzjoF-metaSG9tcy5qcGc=-.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/storage/PKxSmlChIgiq2z6MwXWlN0f4vMaYuT-metac2FtZm9yZC1oYWxsLTE2MTQxODNfMTI4MC5qcGc=-.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/storage/Pnr19fs5KhMBOFpVQEppfW9gbcYkUm-metac3R1ZGVudC5qcGc=-.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/storage/R.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/storage/Ry7wEeGbohBrrMQHv1HIW0HUfYcla5-metac3R1ZGVudC5qcGc=-.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/storage/THIDZtGhtgneaRWnj9wB5fxJPVaYOt-metac3R1ZGVudC5qcGc=-.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/storage/VJqawEfKGOoK1aIycAwXNvRBnXvb1k-metac2FtZm9yZC1oYWxsLTE2MTQxODNfMTI4MC5qcGc=-.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/storage/WxtpPegrZxpGyH4VsQ6rNLN3ZL3tQC-metac3R1ZGVudC5qcGc=-.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/storage/XiSISwHD5pAvgVJVasuipEsk1HGvDz-metaZG93bmxvYWQucG5n-.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/storage/YOdHH5UwMby9wL37gS8cZbyDxxaGTm-metac3R1ZGVudC5qcGc=-.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/storage/b2X9kPdBrupFdpsGI9aLaIOXS2kRgH-metac3R1ZGVudC5qcGc=-.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/storage/course-1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/storage/course-1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/storage/course-2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/storage/course-2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/storage/course-3.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/storage/course-3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/storage/g6jGPQfxs9Mi0n7WM4knbBXkHTiUTH-metac3R1ZGVudC5qcGc=-.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/storage/gBxD5rR9tViVkEIsDAIt7sWf27wskD-metac3R1ZGVudC5qcGc=-.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/storage/hWv4fizKL5yi0Rgt0JF4lDAPTJGrnm-metabWFuLTE2MTI4Ml8xMjgwLnBuZw==-.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/storage/hp7WrM67Q6tSZa6OPLqyPS8RQSeJ9x-metaU2NyZWVuc2hvdCAyMDIzLTA5LTMwIDIyMTQzNi5wbmc=-.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/storage/jKgBAOUJ5zJn2u7AhdsV5n82ThHLnH-metac3R1ZGVudC5qcGc=-.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/storage/kT9O75Yu9lYyfQxRi2fli36hMqhJCw-metac3R1ZGVudC5qcGc=-.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/storage/l6jOdiOUNcvYEVJ3GRO64gGJHuLPsm-metaU2NyZWVuc2hvdCAyMDIzLTA5LTMwIDIyMTQzNi5wbmc=-.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/storage/lKhj21ueOVLUNSoNyVPeEiPi4KjuVh-metaU2NyZWVuc2hvdCAyMDIzLTA5LTMwIDIyMTQzNi5wbmc=-.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/storage/mJxALZsf9Gn0ZDmHNg96Lp5RuT3K3q-metac3R1ZGVudC5qcGc=-.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/storage/ny9QA98yA8FE2x7HsQcTD3KvqtIYfl-metac3R1ZGVudC5qcGc=-.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/storage/o4oUUbB3oHhwSZkzwq9H5rwVudOYOq-metac3R1ZGVudC5qcGc=-.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/storage/oP88WY22Vy1TWxaIinaHmCqQDiympE-metabWFuLTE2MTI4Ml8xMjgwLnBuZw==-.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/storage/q6WYe9thobUJpOdidt4MY5kGwHbKgU-metac3R1ZGVudC5qcGc=-.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/storage/qWqmipDj1tIeNu44RGNd0JFG8CkYZZ-metac3R1ZGVudC5qcGc=-.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/storage/qo9pw4iEGI9VWiUwmKeseH6V2vJ4gJ-metaU2NyZWVuc2hvdCAyMDIzLTA5LTMwIDIyMTQzNi5wbmc=-.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/storage/td8BhTxGU0QEvJPAn8Hr5HgIvCGKcM-metac3R1ZGVudC5qcGc=-.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/storage/vbMAPJItpzgUjNZxEO43r1JmvSZ2YE-metac3R1ZGVudC5qcGc=-.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/storage/wL7uOQHhHH2R76ZxxgpP2qULGJ1zvn-metaYWRtaW4ucG5n-.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/storage/we58NBpYUXykjLy3tEFKHkLN6VFJ7P-metac3R1ZGVudC5qcGc=-.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/storage/zI6PEZXHbQXvGawXiyxcHOTvKIxaaR-metac3R1ZGVudC5qcGc=-.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/storage/zuV17Dtj1XRtXtp0wluEN45J7xgps8-metac3R1ZGVudC5qcGc=-.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/app/public/066IKctVRGJYQ5xKsqrCbfYJXVkzpy-metac3R1ZGVudC5qcGc=-.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/app/public/0ZMuOqDw7qvSXOcK9bDGQlE5tINDVB-metaYm95LmpwZw==-.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/app/public/0sdGfsJ4gVgktQyqRI9o059yBlPJLR-metaZG93bmxvYWQucG5n-.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/app/public/1x79j2N8oH2419H6rbOHjhGsWFEKTn-metaU2NyZWVuc2hvdCAyMDIzLTA5LTMwIDIyMTQzNi5wbmc=-.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/app/public/2AChpBzJblKWzF9GQkA2sNG4iqYWsd-metadGVhY2hlci5qcGc=-.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/app/public/2J2Cfbfxm8M2tgT6KYQW99OhgCK2lM-metaYm95LmpwZw==-.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/app/public/3WTBom3TT1LosrRdgm4o6XqmAQwlW9-metac3R1ZGVudC5qcGc=-.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/app/public/4w14blufqv94h9nCKCAjTmmIYOa1QN-metadGVhY2hlcjIuanBn-.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/app/public/5JhQknhvGTPc7M8gch3PUm0KyMh58N-metac3R1ZGVudC5qcGc=-.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/app/public/5VzInLoPq236jmT9JVZM6XOvzoVtzs-metac3R1ZGVudC5qcGc=-.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/app/public/6ydTnxXJ74E3AsC2kAJnLULE6exAur-metacHJvZmlsZS1iaWcuanBn-.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/app/public/7nJUQcVlj0bXydYh05TBU9HcozqwZY-metaUGFyaXMuanBn-.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/app/public/8U0mKxNr8EmO9An4JoJ32Fq4vOlfPk-metac3R1ZGVudC5qcGc=-.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/app/public/9XwuK7Hf4ZGqhFY0Z9dL6ed6JUsllK-metac3R1ZGVudC5qcGc=-.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/app/public/A3WsHcqCyZHgoqEZNrgMVHWz1TDu4U-metacHJvZmlsZS1iaWcuanBn-.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/app/public/BjgbR1sMu1treafPrSYBmRPVxzUyga-metaU2NyZWVuc2hvdCAyMDIzLTA5LTMwIDIyMTQzNi5wbmc=-.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/app/public/DO8AThZJxIO3w0t2ZjxDOI80ecTsiG-metac3R1ZGVudC5qcGc=-.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/app/public/DkYbzhkoqp3gmm3ANjwd7CJO56v6Wt-metac3R1ZGVudC5qcGc=-.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/app/public/EaXELr17OQBLjyaXztWhYrtakySMX5-metac2FtZm9yZC1oYWxsLTE2MTQxODNfMTI4MC5qcGc=-.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/app/public/FuLs28qRrTCjMUYnOB6J7spITJKlbx-metaU2NyZWVuc2hvdCAyMDIzLTA5LTMwIDIyMTQzNi5wbmc=-.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/app/public/FwXcLfjEPBMW1NZYrZGtdN61vBldmy-metaU2NyZWVuc2hvdCAyMDIzLTA5LTMwIDIyMTQzNi5wbmc=-.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/app/public/G4n1OAOmOQyeetfHwyc6oRPzYSZkY3-metaU2NyZWVuc2hvdCAyMDIzLTA5LTMwIDIyMTQzNi5wbmc=-.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/app/public/GjWeJf3o3jqGgbp6vtQDQub3korWLW-metac3R1ZGVudC5qcGc=-.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/app/public/HwgMcuhDWScZEJB00qCUH6X3av1CI2-metac2FtZm9yZC1oYWxsLTE2MTQxODNfMTI4MC5qcGc=-.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/app/public/JEavrkpBE0bGx84GzcT0X3vhhz8S7T-metac3R1ZGVudC5qcGc=-.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/app/public/JX6SYcRypNJSnwA6NX4xoCTvDpgdSi-metac2FtZm9yZC1oYWxsLTE2MTQxODNfMTI4MC5qcGc=-.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/app/public/K3qhK0DgVfr6FC0pPDlRtQRNiv7zWw-metac2FtZm9yZC1oYWxsLTE2MTQxODNfMTI4MC5qcGc=-.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/app/public/LN1ALQz6MJ2X5FRszQ98Z4kfkuJRTy-metac3R1ZGVudC5qcGc.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/app/public/LSkOOKY22J0ZNSc0FAi4CgR1vtq3EY-metac3R1ZGVudC5qcGc=-.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/app/public/LTlJsAzVxMBKEOAjZSuO294epzjj0d-metac3R1ZGVudC5qcGc=-.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/app/public/NFaNmJRNHCqzsk1dm9mVIAZhphPpb4-metacHJvZmlsZS1iaWcuanBn-.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/app/public/Ninu0Eh2XUNvvGmGHJHTYbUTuLzjoF-metaSG9tcy5qcGc=-.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/app/public/PKxSmlChIgiq2z6MwXWlN0f4vMaYuT-metac2FtZm9yZC1oYWxsLTE2MTQxODNfMTI4MC5qcGc=-.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/app/public/Pnr19fs5KhMBOFpVQEppfW9gbcYkUm-metac3R1ZGVudC5qcGc=-.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/app/public/R.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/app/public/Ry7wEeGbohBrrMQHv1HIW0HUfYcla5-metac3R1ZGVudC5qcGc=-.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/app/public/THIDZtGhtgneaRWnj9wB5fxJPVaYOt-metac3R1ZGVudC5qcGc=-.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/app/public/VJqawEfKGOoK1aIycAwXNvRBnXvb1k-metac2FtZm9yZC1oYWxsLTE2MTQxODNfMTI4MC5qcGc=-.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/app/public/WxtpPegrZxpGyH4VsQ6rNLN3ZL3tQC-metac3R1ZGVudC5qcGc=-.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/app/public/XiSISwHD5pAvgVJVasuipEsk1HGvDz-metaZG93bmxvYWQucG5n-.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/app/public/YOdHH5UwMby9wL37gS8cZbyDxxaGTm-metac3R1ZGVudC5qcGc=-.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/app/public/b2X9kPdBrupFdpsGI9aLaIOXS2kRgH-metac3R1ZGVudC5qcGc=-.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/app/public/course-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/app/public/course-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/app/public/course-3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/app/public/g6jGPQfxs9Mi0n7WM4knbBXkHTiUTH-metac3R1ZGVudC5qcGc=-.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/app/public/gBxD5rR9tViVkEIsDAIt7sWf27wskD-metac3R1ZGVudC5qcGc=-.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/app/public/hWv4fizKL5yi0Rgt0JF4lDAPTJGrnm-metabWFuLTE2MTI4Ml8xMjgwLnBuZw==-.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/app/public/hp7WrM67Q6tSZa6OPLqyPS8RQSeJ9x-metaU2NyZWVuc2hvdCAyMDIzLTA5LTMwIDIyMTQzNi5wbmc=-.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/app/public/jKgBAOUJ5zJn2u7AhdsV5n82ThHLnH-metac3R1ZGVudC5qcGc=-.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/app/public/kT9O75Yu9lYyfQxRi2fli36hMqhJCw-metac3R1ZGVudC5qcGc=-.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/app/public/l6jOdiOUNcvYEVJ3GRO64gGJHuLPsm-metaU2NyZWVuc2hvdCAyMDIzLTA5LTMwIDIyMTQzNi5wbmc=-.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/app/public/lKhj21ueOVLUNSoNyVPeEiPi4KjuVh-metaU2NyZWVuc2hvdCAyMDIzLTA5LTMwIDIyMTQzNi5wbmc=-.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/app/public/mJxALZsf9Gn0ZDmHNg96Lp5RuT3K3q-metac3R1ZGVudC5qcGc=-.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/app/public/ny9QA98yA8FE2x7HsQcTD3KvqtIYfl-metac3R1ZGVudC5qcGc=-.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/app/public/o4oUUbB3oHhwSZkzwq9H5rwVudOYOq-metac3R1ZGVudC5qcGc=-.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/app/public/oP88WY22Vy1TWxaIinaHmCqQDiympE-metabWFuLTE2MTI4Ml8xMjgwLnBuZw==-.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/app/public/q6WYe9thobUJpOdidt4MY5kGwHbKgU-metac3R1ZGVudC5qcGc=-.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/app/public/qWqmipDj1tIeNu44RGNd0JFG8CkYZZ-metac3R1ZGVudC5qcGc=-.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/app/public/qo9pw4iEGI9VWiUwmKeseH6V2vJ4gJ-metaU2NyZWVuc2hvdCAyMDIzLTA5LTMwIDIyMTQzNi5wbmc=-.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/app/public/td8BhTxGU0QEvJPAn8Hr5HgIvCGKcM-metac3R1ZGVudC5qcGc=-.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/app/public/vbMAPJItpzgUjNZxEO43r1JmvSZ2YE-metac3R1ZGVudC5qcGc=-.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/app/public/wL7uOQHhHH2R76ZxxgpP2qULGJ1zvn-metaYWRtaW4ucG5n-.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/app/public/we58NBpYUXykjLy3tEFKHkLN6VFJ7P-metac3R1ZGVudC5qcGc=-.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/app/public/zI6PEZXHbQXvGawXiyxcHOTvKIxaaR-metac3R1ZGVudC5qcGc=-.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/app/public/zuV17Dtj1XRtXtp0wluEN45J7xgps8-metac3R1ZGVudC5qcGc=-.jpg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/storage/framework/cache/data/02/47/0247bb36de8848a8f2a2ee50eeb7912eab2ae309" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/cache/data/02/47/0247bb36de8848a8f2a2ee50eeb7912eab2ae309" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/storage/framework/cache/data/06/17/061726db3d846617dbf57062cd6dae9f8ce9d282" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/cache/data/06/17/061726db3d846617dbf57062cd6dae9f8ce9d282" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/storage/framework/cache/data/66/0e/660e24580927cd53659b00a35644a4634ed72dd6" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/cache/data/66/0e/660e24580927cd53659b00a35644a4634ed72dd6" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/storage/framework/cache/data/6b/70/6b7041320a73d38513b4afcd5638b069fe86bd58" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/cache/data/6b/70/6b7041320a73d38513b4afcd5638b069fe86bd58" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/cache/data/76/e7/76e7c0fdd0cc0d46502f9d381b947cdf6aa69891" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/cache/data/76/e7/76e7c0fdd0cc0d46502f9d381b947cdf6aa69891" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/cache/data/9c/1c/9c1c01dc3ac1445a500251fc34a15d3e75a849df" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/cache/data/9c/1c/9c1c01dc3ac1445a500251fc34a15d3e75a849df" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/storage/framework/cache/data/c0/71/c071422490d526a8aada046adf3a9c9fa0593468" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/cache/data/c0/71/c071422490d526a8aada046adf3a9c9fa0593468" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/storage/framework/cache/data/ec/c4/ecc49f49f4da6b940dcde13f0571e79c299871e6" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/cache/data/ec/c4/ecc49f49f4da6b940dcde13f0571e79c299871e6" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/storage/framework/sessions/5OA7oyIfF2TwJLYPNTmXwBYi6QMd3KP21rMpxqEg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/storage/framework/sessions/BsNYlvSOf2nkVKG3T9LxR2TpocDcopMrnEzhJQFL" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/storage/framework/sessions/EwSda5HptdJfB76VaNqtjmSwHNjmdRl738RgXMvu" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/storage/framework/sessions/QCuPucG9pEhTS2dqjGVd5Qf8elWxMAPiP5hXC58W" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/storage/framework/sessions/dPY9fG5KI8MWQM5C42Owk5RY3fE4v4TFg8kN2iCh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/storage/framework/sessions/de07IDKXnYHWHo0Ei32Y9aqLJOUYwg2sjKt6NVra" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/storage/framework/sessions/igZc2wjJjXQcWFW0DZoii055elfn3PmQyVHKFIX7" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/storage/framework/sessions/j0rtUkjBmqrCPruyZ6GxdTe11VNk3AYNE7XywzLB" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/storage/framework/sessions/nKpkAcWe6iBe5G1vLa92h5K1U7ypAZBXi90Pzn2v" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/storage/framework/sessions/xd3HDTgR2Sdha3zp5TgoMeWjLrioztrNwfjKhfvn" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/sessions/1gg7DleAYaFMSP8xlRvprY9qkK9QfgogA3B4bT9z" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/sessions/2zyADWY6a4w1skFTXR8pxSnR3886ss3IpyrEYkyz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/sessions/3zqRpHmB5MNv1w06VYfhNw9jI1PjvGJZQLyjJrco" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/sessions/41RXGpqGQKnLJ9XQHWG82bykihULe4dm5GZZPbxA" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/sessions/4wXTTKrbucrSdaNzIURxKcp5eNzEJdygK1DVeTj6" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/sessions/6MsPDUHhHzPonfEHGH8mqb41UakdnGyHLRdGspmI" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/sessions/7NRQ7ww5ENtAaPCQdWBOFlq0VDjb57EnVA7Ud6gj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/sessions/7YwCzEWZIdYQzWTQylWjyuWYxHLkgGRtPCWAMKTL" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/sessions/9j16HbQF6gSCXrb2ZDDQP1MHUcDWy5Jv1dBc9crr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/sessions/BcEWeTytcUJ6C1YEjAdLxv0fWg1Ng77WozYIpwH5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/sessions/CTmnlVRCbuC81SZ64s9MH7Q4RZIjIvRGFdZyVPKB" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/sessions/DEKkkuOiSKF1mDpPGLVA0WX2aiKEhoIj7tdelbOb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/sessions/FIrIaZ5V8nl6Pjx2CbcEH8SHh1jCNQPcg8Q1azfe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/sessions/GZamravQC6u1P5vwG9cmLHUBDpnezjInM76AidVn" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/sessions/IEj9Olm7XZAZhkpLUBu1LSVKPgKOgbULKb8rVacE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/sessions/JFvAWGUeNNumvGhBj8lTiik7gCyzlxNVsBxK7qZL" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/sessions/LyejFdRePFk69XwJmlBtDdEJAo8aYGo1R6VIJUAj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/sessions/MCIcCdgc8uQI7402ucEVJdv4vKZBWCG5ohBPhipS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/sessions/OugfhVhd7AoD0UjICzaRc1NoiSz00cc7hzC07FPn" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/sessions/R5uw5pjBnuTCcrEsqoObqIYfHCptx1QDRmzf9CN5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/sessions/RgH9EBGDwudnTEyngLaQTWKpfkKBdzg22expl5fv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/sessions/SGuNFsRlezKgsDm0T6yvR47iAQ9mVY7ZUtjbohMG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/sessions/Sp1Cz8wmAdeLaZmhyxtynjDEwSBTQcm0S5kLwRQT" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/sessions/Wr3F0pUWExAa63KjAkpKsaIMGlPshMCIXm0ck7Py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/sessions/ZkHvy8JbGRiRfGAO53pEclaXRan3gBnSHYlHLXl9" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/sessions/ctzIEMSpG5rN9BcMmeQNWSViQ6Wyumr8kmbjKkqS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/sessions/dsvT2wHTKq0ygZVtEYeEkWG4D8w60jMBQcZOZGCq" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/sessions/fkvaScuhA7u0iKQDYs5JhkLkCNuuz525H9dZ7UU4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/sessions/gtEf1m8Dq2wLQaBsoYyjZEEBnJbeuRWnM7RRKNsd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/sessions/h7MOTo23MODfRLWJIszjFIedKR7ElzGX6vG1Muy9" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/sessions/hxqWCI280yAA1lRbhuLo5pYdkZAGv6opGHzUJ5QE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/sessions/ik9i521kWw1F2gMbIqZV0frfCqlPgR4fHbxcl9K7" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/sessions/imBXvmNlOHrXMedlJGqhklWvPOVFSynFA427vfx5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/sessions/isCk37kcbOxTShrWikQi0F8hUlCJdVNB1nJ3v1gm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/sessions/j5v80auluJ9QzL088o4yqFlw4bLYp9cL2bFiggvs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/sessions/jNXlR0qyEtrlAbS1Ndc3xRbzx8Tt5F7uzZhO77ou" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/sessions/jc0o8eyiulgQ8yZY4tIOaF4oL6Bo8ib3hDGCU7Zc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/sessions/k2bpSta2cAKddMJXQUNrO1S9M6HkZOKtmCjQPs25" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/sessions/kWBwP9jPtt1Hajknt5nLPZn1CBVCIv1joZ1wRy2k" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/sessions/ky9E0XMgtH3cWnvWmUtS6v4lcgItrS5llxcmamP8" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/sessions/nkaNMCTcfq48g6y3QdFGiJEULPBUEKSYQXaEvrMS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/sessions/pxdv3adnvXCSRCHxQBNISyTlX72Ei0rFzrtwMFEN" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/sessions/q3YN7McA5FLjm12KbcU2OQbylHlZlBnxoKfa2aHZ" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/sessions/qESLKlZyg0TRNmavvKjtuYJ0konhfyuj1ynCbckL" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/sessions/qychYkAwlZg1Nxl4qZkBKmFjTBzJg5mKHmaWp3Em" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/sessions/rjcE99yDSe1mIMuZMjnaYgcjPjDXSyT1w6cy653G" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/sessions/tgxdY4sLtDDRYh6z7mmG92Uc4ITO2JfvGyfQFdbH" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/sessions/twSBUBgHI7b9sZmXHRffSSMwsI3ux46MY6kN89EP" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/sessions/yM8VbX5SWKkqXiuBSbYCdiU7zWx2L9gJwtvrcAz9" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/storage/logs/laravel.log" beforeDir="false" afterPath="$PROJECT_DIR$/storage/logs/laravel.log" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -214,13 +377,14 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/storage/app/public/image" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/storage/app/public" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\hp\Project\Junior_project3\Junior_project\storage\app\public" />
       <recent name="C:\Users\hp\Desktop\Junior_project3\Junior_project\storage\app\public\image" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -264,10 +428,27 @@
       <workItem from="1697297949320" duration="7860000" />
       <workItem from="1697313106763" duration="150000" />
       <workItem from="1697367557222" duration="5571000" />
+      <workItem from="1697373997795" duration="8000" />
+      <workItem from="1697471146525" duration="1071000" />
+      <workItem from="1697529531025" duration="13000" />
+      <workItem from="1697530609796" duration="6004000" />
+      <workItem from="1697537919590" duration="1284000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>

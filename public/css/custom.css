@@ -162,7 +162,7 @@ header .navbar:after{
 	right: 0;
 	height: 20px;
 	bottom: -16px;
-	background: url(../images/wave-bg3.png) repeat-x;
+	background: url(../storage/image/wave-bg3.png) repeat-x;
 	z-index: 100;
 }
 
@@ -314,7 +314,7 @@ header .navbar-collapse.collapse{
 	right: 0;
 	bottom: 0px;
 	height: 16px;
-	background: url(../images/wave-bg3.png) repeat-x;
+	background: url(../storage/image/wave-bg3.png) repeat-x;
 	transform: rotate(180deg);
 	z-index: 1;
 }
@@ -453,7 +453,7 @@ header .navbar-collapse.collapse{
 	bottom: -16px;
 	left: 0;
 	right: 0;
-	background: url(../images/wave-bg3.png) repeat-x;
+	background: url(../storage/image/wave-bg3.png) repeat-x;
 	z-index: 1;
 }
 
@@ -502,7 +502,7 @@ header .navbar-collapse.collapse{
 	color: #fff;
 	line-height: 60px;
 	border-radius: 50%;
-	
+
 }
 
 .icon-blue{
@@ -566,7 +566,7 @@ header .navbar-collapse.collapse{
 	right: 0;
 	bottom: 0px;
 	height: 16px;
-	background: url(../images/wave-bg3.png) repeat-x;
+	background: url(../storage/image/wave-bg3.png) repeat-x;
 	transform: rotate(180deg);
 	z-index: 1;
 }
@@ -638,7 +638,7 @@ header .navbar-collapse.collapse{
 }
 
 .course-orange h3:after{
-	background: #ff5722;	
+	background: #ff5722;
 }
 
 .course-orange .course-footer a{
@@ -654,7 +654,7 @@ header .navbar-collapse.collapse{
 }
 
 .course-blue h3:after{
-	background: #1976d2;	
+	background: #1976d2;
 }
 
 .course-blue .course-footer a{
@@ -670,7 +670,7 @@ header .navbar-collapse.collapse{
 }
 
 .course-green h3:after{
-	background: #a4cf27;	
+	background: #a4cf27;
 }
 
 .course-green .course-footer a{
@@ -698,7 +698,7 @@ header .navbar-collapse.collapse{
 	right: 0;
 	bottom: -16px;
 	height: 16px;
-	background: url(../images/wave-bg3.png) repeat-x;
+	background: url(../storage/image/wave-bg3.png) repeat-x;
 	z-index: 1;
 }
 
@@ -707,7 +707,7 @@ header .navbar-collapse.collapse{
 }
 
 .about-content h3{
-	font-family: 'Bubblegum Sans', cursive;	
+	font-family: 'Bubblegum Sans', cursive;
 	font-size: 28px;
 	font-weight: 400;
 	color: #333;
@@ -757,7 +757,7 @@ header .navbar-collapse.collapse{
 	right: 0;
 	bottom: 0px;
 	height: 16px;
-	background: url(../images/wave-bg3.png) repeat-x;
+	background: url(../storage/image/wave-bg3.png) repeat-x;
 	transform: rotate(180deg);
 }
 
@@ -847,7 +847,7 @@ header .navbar-collapse.collapse{
 	right: 0;
 	bottom: -16px;
 	height: 16px;
-	background: url(../images/wave-bg3.png) repeat-x;
+	background: url(../storage/image/wave-bg3.png) repeat-x;
 	z-index: 1;
 }
 
@@ -997,10 +997,10 @@ header .navbar-collapse.collapse{
 	right: 0;
 	bottom: 0px;
 	height: 16px;
-	background: url(../images/wave-bg3.png) repeat-x;
+	background: url(../storage/image/wave-bg3.png) repeat-x;
 	transform: rotate(180deg);
 }
-	
+
 .testimonial-slider-wrapper-outer{
 	background: #cde686;
 	max-width: 960px;
@@ -1080,7 +1080,7 @@ header .navbar-collapse.collapse{
 	right: 0;
 	bottom: -16px;
 	height: 16px;
-	background: url(../images/wave-bg3.png) repeat-x;
+	background: url(../storage/image/wave-bg3.png) repeat-x;
 	z-index: 1;
 }
 
@@ -1149,7 +1149,7 @@ header .navbar-collapse.collapse{
 	right: 0;
 	bottom: 0px;
 	height: 16px;
-	background: url(../images/wave-bg3.png) repeat-x;
+	background: url(../storage/image/wave-bg3.png) repeat-x;
 	transform: rotate(180deg);
 }
 
@@ -1313,7 +1313,7 @@ footer.footer{
 	.header .navbar-nav{
 		display: none;
 	}
-	
+
 	.header .navbar{
 		align-items: flex-start;
 	}
@@ -1322,7 +1322,7 @@ footer.footer{
 		position: relative;
 		flex-wrap: wrap;
 	}
-	
+
 	.header .navbar-toggle,
 	#responsive-menu{
 		display: block;
@@ -1336,20 +1336,20 @@ footer.footer{
 		padding-top: 18px;
 		padding-bottom: 18px;
 	}
-	
+
 	.banner-slide .banner-slide-overlay{
 		left: 10%;
 		right: 10%;
 	}
-	
+
 	.banner-slide-overlay h2{
 		font-size: 36px;
 	}
-	
+
 	.activities-single{
 		padding: 0;
 	}
-	
+
 	.course-single{
 		max-width: 480px;
 		margin: 0 auto 30px;
@@ -1357,34 +1357,34 @@ footer.footer{
 }
 
 @media only screen and (max-width: 767px){
-	
+
 	.our-activities{
 		padding: 60px 0 20px;
 	}
-	
+
 	.courses,
 	.faculty{
 		padding: 60px 0 30px;
 	}
-	
+
 	.about-us,
 	.events,
 	.contactus{
 		padding: 60px 0;
 	}
-	
+
 	.testimonial{
 		padding: 60px 0 0;
 	}
-	
+
 	.photo-gallery{
 		padding: 60px 0 10px;
 	}
-	
+
 	.section-title{
 		margin-bottom: 40px;
 	}
-	
+
 	.section-title h2{
 		font-size: 24px;
 	}
@@ -1392,85 +1392,85 @@ footer.footer{
 	.section-title p{
 		font-size: 14px;
 	}
-	
+
 	.header-social-link,
 	.school-info{
 		text-align: center;
 	}
-	
+
 	.school-info ul li{
 		display: block;
 	}
-	
+
 	.school-info ul li:before{
 		display: none;
 	}
-	
+
 	.banner-slide .banner-slide-overlay{
 		left: 14%;
 		right: 14%;
 	}
-	
+
 	.banner-slide-overlay h2{
 		font-size: 20px;
 		text-shadow: 1px 0 0 #fff, -1px 0 0 #fff, 0 1px 0 #fff, 0 -1px 0 #fff, 1px 1px #fff, -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff;
 	}
-	
+
 	.btn-slider{
 		padding: 6px 20px;
 		font-size: 14px;
 	}
-	
+
 	.activities-single{
 		margin-bottom: 40px;
 	}
-	
+
 	.about-image{
 		margin-bottom: 40px;
 	}
-	
+
 	.testimonial-slider-wrapper-outer{
 		padding: 10px 10px 0 10px;
 	}
-	
+
 	.testimonial-slide{
 		padding: 30px 20px 0;
 	}
-	
+
 	.testimonial-slide h3{
 		font-size: 22px;
 	}
-	
+
 	.testimonial-slide p{
 		font-size: 18px;
 	}
 }
 
 @media only screen and (max-width: 575px){
-	
+
 	.header .container{
 		width: 100%;
 		padding-left: 15px !important;
 		padding-right: 15px !important;
 	}
-	
+
 	.header-social-link{
 		display: none;
 	}
-	
+
 	.contact-info p{
 		font-size: 18px;
 	}
-	
+
 	.contact-social-link{
 		text-align: center;
 		margin-bottom: 40px;
 	}
-	
+
 	.contact-social-link a{
 		margin: 6px 10px;
 	}
-	
+
 	.event-single{
 		margin: 20px;
 		box-shadow: 2px 2px 20px rgba(0,0,0,0.1);

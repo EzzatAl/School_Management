@@ -43,13 +43,31 @@ class QuizQuestionResource extends Resource
     {
         return $table
             ->columns([
-                Tables\Columns\TextColumn::make('quizze.Name'),
-                Tables\Columns\TextColumn::make('Questions'),
-                Tables\Columns\TextColumn::make('Mark'),
-                Tables\Columns\TextColumn::make('Type'),
+                Tables\Columns\TextColumn::make('quizze.Name')
+                    ->searchable()
+                    ->toggleable()
+                    ->sortable(),
+                Tables\Columns\TextColumn::make('Questions')
+                    ->searchable()
+                    ->toggleable()
+                    ->sortable(),
+                Tables\Columns\TextColumn::make('Mark')
+                    ->searchable()
+                    ->toggleable()
+                    ->sortable(),
+                Tables\Columns\TextColumn::make('Type')
+                    ->searchable()
+                    ->toggleable()
+                    ->sortable(),
                 Tables\Columns\TextColumn::make('created_at')
+                    ->searchable()
+                    ->toggleable()
+                    ->sortable()
                     ->dateTime(),
                 Tables\Columns\TextColumn::make('updated_at')
+                    ->searchable()
+                    ->toggleable()
+                    ->sortable()
                     ->dateTime(),
             ])
             ->filters([

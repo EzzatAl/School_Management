@@ -65,7 +65,7 @@ class UserController extends Controller
             $response =
                 [
                 'Name' => $data['first_name'].' '.$data['last_name'],
-                 'Image'=>$data['image'],
+                 'Image'=>asset('storage/'.$data['image']),
                 'Division' => $data['name'],
                 'Grade' => $data['Name']
                 ];

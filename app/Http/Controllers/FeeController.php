@@ -32,9 +32,15 @@ class FeeController extends Controller
                 return view('welcome');
             }
         }
-        public function Fee (Request $request)
-        {
-            $fee =Fee::all('Name','Type','Description','Image');
-            return response($fee);
-        }
+    public function Fee(Request $request)
+    {
+        $fees = Fee::all(['Name', 'Type', 'Description', 'Image']);
+
+        $fees = $fees->map(function ($fee) {
+            $fee['Image'] =asset('storage/'.$fee['Image']);
+            return $fee;
+        });
+
+        return response($fees);
+    }
 }
