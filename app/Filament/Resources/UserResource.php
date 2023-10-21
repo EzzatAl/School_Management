@@ -94,17 +94,17 @@ class UserResource extends Resource
                     ->searchable()
                     ->toggleable()
                     ->sortable(),
+                Tables\Columns\ImageColumn::make('image')
+                    ->hidden()
+                    ->toggleable(),
                 Tables\Columns\TextColumn::make('email')
                     ->searchable()
                     ->toggleable()
                     ->sortable(),
-
                 Tables\Columns\TextColumn::make('type')
                     ->searchable()
                     ->toggleable()
                     ->sortable(),
-                Tables\Columns\ImageColumn::make('image')
-                    ->hidden(),
                 Tables\Columns\TextColumn::make('gender')
                     ->searchable()
                     ->toggleable()

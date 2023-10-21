@@ -58,10 +58,9 @@ class FeeResource extends Resource
                     ->searchable()
                     ->toggleable()
                     ->sortable(),
-                Tables\Columns\TextColumn::make('Image')
-                    ->searchable()
-                    ->toggleable()
-                    ->sortable(),
+                Tables\Columns\ImageColumn::make('Image')
+                    ->hidden()
+                    ->toggleable(),
                 Tables\Columns\TextColumn::make('created_at')
                     ->searchable()
                     ->toggleable()

@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title> Free Dental Medical Shcool Website Template | Smarteyeapps.com</title>
+    <title> Student Profile </title>
 
     <link rel="shortcut icon" href="storage/image/fav.jpg">
     <link rel="stylesheet" href="assets/css/sbootstrap.min.css">
@@ -127,7 +127,7 @@
                                                     </tr>
                                                     <tr>
                                                         <th>Class</th>
-                                                        <td><?php echo e($information->name); ?></td>
+                                                        <td><?php echo e($information->Name); ?></td>
                                                     </tr>
                                                     </tbody>
                                                 </table>
@@ -136,8 +136,8 @@
                                             <div class="col-lg-6 no-padding">
                                                 <table class="addrss-list">
                                                     <tbody><tr>
-                                                        <th>Gender</th>
-                                                        <td><?php echo e($information->Name); ?></td>
+                                                        <th>Grade</th>
+                                                        <td><?php echo e($information->name); ?></td>
                                                     </tr>
                                                     <tr>
                                                         <th>Father Name</th>
